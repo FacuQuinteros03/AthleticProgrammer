@@ -1,6 +1,7 @@
 import { Oswald } from 'next/font/google';
 import './globals.css';
 import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 const oswald = Oswald({ subsets: ['latin'] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={oswald.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
