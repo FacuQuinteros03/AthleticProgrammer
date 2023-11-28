@@ -62,19 +62,23 @@ function NavBar() {
       </nav>
 
       <div className="redes">
-        <a href="" className="Icon">
+        <a href="" target="_blank" className="Icon">
           <FaWhatsapp />
         </a>
-        <a href="" className="Icon">
+        <a
+          href="https://www.instagram.com/athletic_programmr/"
+          target="_blank"
+          className="Icon"
+        >
           <FaInstagram />
         </a>
-        <a href="" className="Icon">
+        <a href="" target="_blank" className="Icon">
           <FaFacebook />
         </a>
       </div>
 
       <div className="nav-responsive" onClick={mostrarOcultarMenu}>
-        <div>
+        <div className="Icon">
           <FaBars />
         </div>
       </div>

@@ -49,10 +49,8 @@
 }
 
 .nav-responsive {
-  background-color: #d5ca70;
   color: #fff;
   padding: 5px 10px;
-  border-radius: 5px;
   cursor: pointer;
   display: none;
 }
@@ -73,19 +71,24 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 75px;
+    top: 108px;
     background: radial-gradient(
       circle,
-      rgb(1, 8, 15) 54%,
-      rgba(10, 20, 29, 1) 100%
+      rgba(1, 8, 15, 0.938) 54%,
+      rgba(10, 20, 29, 0.932) 100%
     );
-    width: 180px;
+    width: 100%;
+    min-height: 100vh;
   }
   nav.responsive ul {
     display: block !important;
   }
   nav.responsive ul li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
-    padding: 10px 0;
+    border-bottom: 1px solid rgba(10, 20, 29, 1);
+    padding: 50px 0;
+    text-align: center;
+  }
+  nav.responsive ul li a {
+    font-size: 32px;
   }
 }
